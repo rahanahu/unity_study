@@ -17,6 +17,7 @@ public class CameraFollow : MonoBehaviour {
             newPosition.y = Mathf.Min(newPosition.y, topLimit);
             newPosition.y = Mathf.Max(newPosition.y, bottomLimit);
 
+
             transform.position = newPosition;
         }
 
